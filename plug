@@ -8,28 +8,28 @@ _G.HatCollide = false
 _G.CustomHats = false -- Enable or disable custom rig feature (basically old oxide when false)
 _G.CH = {
     Torso = {
-        Name= "Accessory (TorsoNoob)",
-        TextureId = "125975972015302",
+        Name= "Black",
+        TextureId = "14251599953",
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(0))
+    },
+    LeftArm = {
+        Name= "Accessory (NoobLeftArm)",
+        TextureId = "18640914168", 
         Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(0))
     },
     RightArm = {
-        Name= "Accessory (RArmNoob)",
-        TextureId = "135650240593878", 
-        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+        Name= "Accessory (NoobRightArm)",
+        TextureId = "18640914168", 
+        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(0))
     },
-    LeftArm = {
-        Name= "Accessory (LArmNoob)",
-        TextureId = "135650240593878", 
+    LeftLeg = {
+        Name= "Accessory (LLeg)",
+        TextureId = "17387586304", 
         Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
     },
     RightLeg = {
-        Name= "Accessory (LARM)",
-        TextureId = "17374768001", 
-        Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
-    },
-    LeftLeg = {
-        Name= "Accessory (RARM)",
-        TextureId = "17374768001", 
+        Name= "Accessory (rightleg)",
+        TextureId = "17387586304",
         Orientation= CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
     }
 }
