@@ -1,0 +1,4 @@
+while true do
+replicatesignal(game.Players.LocalPlayer.ConnectDiedSignalBackend)
+        wait(game.Players.RespawnTime + .1)
+        end
